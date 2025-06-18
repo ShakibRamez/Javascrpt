@@ -188,5 +188,29 @@
 // console.log(ages.every(age => age > 18));
 
 //some method array
-const ages = [16, 21, 15];
-console.log(ages.some(age => age >= 18)); 
+// const ages = [16, 21, 15];
+// console.log(ages.some(age => age >= 18)); 
+
+//find method array
+// const arr = [5, 12, 8, 130];
+// const result = arr.find(x => x > 10);
+// console.log(result);
+
+//findindex method array
+// const arr = [5, 12, 8, 130];
+// const index = arr.findIndex(x => x > 10);
+// console.log(index);
+
+//array.form
+// const str = "hello";
+// const arr = Array.from(str);
+// console.log(arr); 
+
+//array is array method
+// console.log(Array.isArray([1, 2, 3]));
+// console.log(Array.isArray("hello")); 
+
+
+//flat method array 
+const arr = [1, 2, [3, 4, [5]]];
+console.log(arr.flat());
