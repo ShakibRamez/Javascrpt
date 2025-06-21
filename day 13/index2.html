@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Local Storage Login</title>
+</head>
+<body>
+  <div class="box">
+    <h2>Login Form</h2>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <button onclick="saveUser()">Login</button>
+    <p class="message" id="msg"></p>
+
+    <hr>
+    <h3>Saved User:</h3>
+    <p id="savedUser"></p>
+  </div>
+
+  <script src="task.js"></script>
+</body>
+</html>
